@@ -14,7 +14,7 @@ with open("rio_rgbify/__init__.py") as f:
 long_description = """"""
 
 # Runtime requirements.
-inst_reqs = ["click", "rasterio", "rio-mucho", "Pillow", "mercantile"]
+inst_reqs = ["click", "rasterio", "rio-mucho"]
 
 extra_reqs = {
     "test": ["pytest", "pytest-cov", "codecov", "hypothesis", "raster_tester"],
